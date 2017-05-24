@@ -7,91 +7,175 @@ html {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   -webkit-box-sizing: inherit;
   -moz-box-sizing: inherit;
   box-sizing: inherit;
   }
 
-.header h1{
-  float: left;
+
+h3 {
+  margin: 4px;
+  color: #888888;
+  font-weight: 400;
 }
-.header h2{
+
+p {
+  font-size: 14px;
+  color: white
+}
+
+ul {
+  list-style: none;
   float: right;
 }
 
-.main{
-  background-color: #edeff0;
-  padding: 40px;
+li {
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+}
 
+/* main */
+  .main{
+    background-color: #edeff0;
+    padding: 40px;
+    overflow: auto;
   }
 
+/* header */
 .header{
   overflow: auto;
   border-bottom: solid lightgrey 2px;
 }
 
-.java-header{
+.header-title{
+  float: left;
+}
+
+.ion-ios-person{
+  font-size: 30px;
+  opacity: .3;
+
+}
+.ion-ios-arrow-down{
+  font-size: 20px;
+  opacity: .3;
+}
+
+.fa-arrow-circle-o-right{
+  font-size: 30px;
+  opacity: .3;
+}
+
+.fa-bell{
+  font-size: 25px;
+  opacity: .3;
+  margin-top: 3px;
+}
+
+.number{
+    opacity: .3;
+    margin-top: 2px;
+}
+
+
+/* course box */
+.course-box {
+  width: 45%;
+  min-width: 300px;
+  margin: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  float: left;
+}
+
+.course-box:before{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* java header */
+.course-box-header{
   background-color: #2c9676;
   color: white;
   padding-left: 10px;
   padding-right: 10px;
 }
-.java-header img:first-child{
-  float: left;
-  margin-top: 14px;
-}
-
-
-/*.java-header p:nth-child(2){
-  float: right;
-}*/
-.java:before{
-  content: "";
-  display: table;
-  clear: both;
-}
-.java-header:after{
-  content: "";
-  display: table;
-  clear: both;
-}
-.java-body p{
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-  .java-body{
-    padding: 20px;
-    background-color: white;
-  }
-
-  .java{
-    width: 50%;
-    margin: 10px;
-    border-radius: 5px;
-    overflow: hidden;
-  }
-
-
-  .button{
-    background-color: white;
-    border: 3px solid #edeff0;
-    box-shadow: none;
-    border-radius: 30px;
-    font-size: 14px;
-    padding: 8px;
-  }
-
-#java{
-  color: #2c9676;
-}
 
 .fa-circle-thin{
   float: left;
+  margin-top: 18px;
+  margin-left: 8px;
+  font-size: 10px;
+  opacity: .5;
 }
 
-.min{
+.book-icon {
+  float: left;
+  margin: 14px;
+  height: 18px;
+}
+
+.min { /* e.g. 118mins */
   float: right;
+}
+
+.course-box-header:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* java body */
+.course-box-body p{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.course-box-body{
+  padding: 20px;
+  background-color: white;
+}
+
+.course-box-text-header { /* e.g. "java annotations" */
+  margin: 5px;
+}
+
+.box-text {
+  font-size: 14px;
+  color: #888888;
+}
+
+
+/* buttons */
+.button{
+  background-color: white;
+  border: 3px solid #edeff0;
+  box-shadow: none;
+  border-radius: 30px;
+  font-size: 14px;
+  padding: 8px;
+}
+
+#java-button { /* button with colored font */
+  color: #2c9676;
+}
+
+.fa-play-circle-o { /* play button */
+  float: right;
+  font-size: 35px;
+  vertical-align: middle;
+  opacity: .20;
+  margin-right: 10px;
+}
+
+.fa-star-o {
+  float: right;
+  font-size: 35px;
+  opacity: .25;
 }
