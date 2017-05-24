@@ -85,7 +85,6 @@ li {
 .course-box {
   width: 48%;
   min-width: 300px;
-  height: 500px;
   margin: 10px;
   border-radius: 5px;
   overflow: hidden;
@@ -104,6 +103,14 @@ li {
   color: white;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.python-header {
+  background-color: #f092b0;
+}
+
+.wordpress-header {
+  background-color: #838cc7;
 }
 
 .fa-circle-thin{
@@ -165,8 +172,16 @@ li {
   padding: 8px;
 }
 
-#java-button { /* button with colored font */
+.java-button { /* button with colored font */
   color: #2c9676;
+}
+
+#python-button {
+  color: #f092b0
+}
+
+#wordpress-button {
+  color: #838cc7;
 }
 
 .fa-play-circle-o { /* play button */
