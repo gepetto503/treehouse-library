@@ -83,8 +83,9 @@ li {
 
 /* course box */
 .course-box {
-  width: 45%;
+  width: 48%;
   min-width: 300px;
+  height: 500px;
   margin: 10px;
   border-radius: 5px;
   overflow: hidden;
@@ -140,6 +141,7 @@ li {
 .course-box-body{
   padding: 20px;
   background-color: white;
+  height: 250px;
 }
 
 .course-box-text-header { /* e.g. "java annotations" */
@@ -149,6 +151,7 @@ li {
 .box-text {
   font-size: 14px;
   color: #888888;
+  padding-bottom: 50px;
 }
 
 
