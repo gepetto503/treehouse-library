@@ -1,0 +1,97 @@
+body {
+  font-family: sans-serif;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
+
+.header h1{
+  float: left;
+}
+.header h2{
+  float: right;
+}
+
+.main{
+  background-color: #edeff0;
+  padding: 40px;
+
+  }
+
+.header{
+  overflow: auto;
+  border-bottom: solid lightgrey 2px;
+}
+
+.java-header{
+  background-color: #2c9676;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.java-header img:first-child{
+  float: left;
+  margin-top: 14px;
+}
+
+
+/*.java-header p:nth-child(2){
+  float: right;
+}*/
+.java:before{
+  content: "";
+  display: table;
+  clear: both;
+}
+.java-header:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.java-body p{
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .java-body{
+    padding: 20px;
+    background-color: white;
+  }
+
+  .java{
+    width: 50%;
+    margin: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+
+  .button{
+    background-color: white;
+    border: 3px solid #edeff0;
+    box-shadow: none;
+    border-radius: 30px;
+    font-size: 14px;
+    padding: 8px;
+  }
+
+#java{
+  color: #2c9676;
+}
+
+.fa-circle-thin{
+  float: left;
+}
+
+.min{
+  float: right;
+}
